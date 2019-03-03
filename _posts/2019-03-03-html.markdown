@@ -10,7 +10,7 @@ categories: tests
 
 <b>2x2:</b> Sub 5 average
   Main: Qiyi Qidi S M
-<b?3x3:<b/> Sub 10 Average
+<b>3x3:<b/> Sub 10 Average
   Main: GTS3M, backup MF3RS2M
 <b>4x4:</b> Sub 1 min Average
   Main: Wuque MiniM
