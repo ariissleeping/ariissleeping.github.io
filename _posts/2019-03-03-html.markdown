@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Mains and Goals for Hobart Summer 2019"
+date:   2019-03-03 17:05:00
+categories: tests
+---
+
+<div class="entry-content">
+2nd ever comp i guess so here are my mains and goals and stuff:
+
+<b>2x2:</b> Sub 5 average
+  Main: Qiyi Qidi S M
+<b?3x3:<b/> Sub 10 Average
+  Main: GTS3M, backup MF3RS2M
+<b>4x4:</b> Sub 1 min Average
+  Main: Wuque MiniM
+<b>3x3 OH:</b> Sub 25 Average
+  Main: GTS2M
+<b>Pyraminx:</b> Just complete an average
+  Main: MFJS Pyraminx
+
+
+	</div>
