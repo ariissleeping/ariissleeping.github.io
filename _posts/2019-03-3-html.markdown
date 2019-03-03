@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "HTML"
+title:  "test post"
 date:   2019-03-03 17:05:00
-categories: jekyll update
+categories: tests
 ---
 
 <div class="entry-content">
