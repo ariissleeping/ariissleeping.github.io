@@ -7,17 +7,11 @@ categories: tests
 
 <div class="entry-content">
 2nd ever comp i guess so here are my mains and goals and stuff:
-
-**2x2:** Sub 5 average
-  Main: Qiyi Qidi S M
-**3x3:** Sub 10 Average
-  Main: GTS3M, backup MF3RS2M
-**4x4:** Sub 1 min Average
-  Main: Wuque MiniM
-**3x3 OH:** Sub 25 Average
-  Main: GTS2M
-**Pyraminx:** Just complete an average
-  Main: MFJS Pyraminx
-
-
+| Event      | Goal | Main |
+| :--- | :---| :--- |
+| 3x3      | Sub 10 Average | GTS2M |
+| 2x2   | Sub 5 Average | Qiyi Qidi S M |
+| 4x4   | Sub 55 Average | Wuque Mini M |
+| 3x3 OH   | Sub 25 Average | GTS2M |
+| Pyraminx   | Just a complete average | MFJS Pyraminx |
 	</div>
