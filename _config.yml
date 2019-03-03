@@ -1,5 +1,5 @@
 # Site settings
-title:        "arissleping"
+title:        "arissleeping"
 description:  "website with cubing stuffs and other stuff"
 baseurl:      "" # the subpath of your site, e.g. /blog/
 url:          "http://ariissleeping.github.io" # the base hostname & protocol for your site
