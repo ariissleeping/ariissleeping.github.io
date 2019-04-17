@@ -8,6 +8,8 @@ github:       "ariissleeping"
 instagram:    "ariissleeping"
 email:        "ariissleeping.business@gmail.com"
 disqus-id:    "" #leave blank if you dont want comments.
+# Google Analytics
+google_analytics: UA-138574133-1
 
 # Build settings
 markdown:     kramdown
