@@ -53,6 +53,9 @@ permalink: /instagram-landing/
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>ariissleeping</title>
+        {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
     </head>
     <center><body>
         
