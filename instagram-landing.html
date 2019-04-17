@@ -6,24 +6,72 @@ permalink: /instagram-landing/
 <html>
     
     <style>
-@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+        
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+        
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+ 
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}   
+    
 </style>
-    <body style="font-family:'Rubik'">
+    <body style="font-family:'Montserrat'">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>ariissleeping</title>
     </head>
-    <body>
+    <center><body>
         
-        <center><h1>ariissleeping's landing page</h1></center>
+        <h1>ariissleeping's landing page</h1>
         
-        <center><h3>featured video</h3></center>
+        <h3>featured video</h3>
         <center><iframe width="560" height="315" src="https://www.youtube.com/embed/HfjGypLE1N8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
         
-        <center><h3>giveaway</h3></center>
+        <h3>giveaway</h3>
         <a class="e-widget no-button" href="https://gleam.io/AQect/complete-ao5-critique-3-winners" rel="nofollow">Complete Ao5 Critique (3 Winners!)</a>
         <script type="text/javascript" src="https://js.gleam.io/e.js" async="true"></script>
         
-    </body>
+        <div class="container">
+        <a href="https://teespring.com/stores/ariissleeping"><img src="https://raw.githubusercontent.com/ariissleeping/ariissleeping.github.io/master/images/Screen%20Shot%202019-04-17%20at%2010.08.02%20am.png" alt="ariissleeping.github.io" style="width:560px;height:560px;" class="image">
+            <div class="middle">
+            <div class="text">VISIT MY STORE</div>
+            </div>
+            </a>
+        </div>
+        
+        </body></center>
 </html>
