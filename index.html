@@ -1,28 +1,120 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>ariissleeping</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-{% for post in site.posts limit:1 %}
-  <article class="module color3">
-    <h2>
-      <a class="red" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <time>{{ post.date| date: "%m/%d/%Y" }}</time>
-    <p>
-      {{ post.content | strip_html | truncate: 250 }}
-    </p>
-  </article>
-{% endfor %}
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+                    <a href="index.html" class="logo">ariissleeping</a>
+					<nav id="nav">
+                    	  <div class="subnav">
+                            <button class="subnavbtn">ALGS <i class="fa fa-caret-down"></i></button>
+                                <div class="subnav-content">
+                                    <a href="#">AR-Inserts</a>
+                                    <a href="OLL.html">OLL</a>
+                                    <a href="PLL.html">PLL</a>
+                              </div>
+						<a href="contact.html">Contact</a>
+                        <a href="https://teespring.com/stores/ariissleeping">Merch</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-{% for post in site.posts offset:1 limit:4 %}
-  <article class="module color3">
-    <h2>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <time>{{ post.date| date: "%m/%d/%Y" }}</time>
-</article>
-{% endfor %}
+		<!-- Banner -->
+			<section id="banner">
+			</section>
 
-<section class="module color3">
-  <a href="{{ 'archives' | prepend: site.baseurl }}">More Posts &rarr;</a>
-</section>
+		<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header>
+						<h2>hi there</h2>
+					</header>
+					<p>Hi I'm Ari. I'm a an asian nerd based out of Tasmania Australia who like to press coloured keys on a big piece of wood, move around in large swaths of water indoors and most importantly, arranging colours on a plastic toy. I've been cubing since 2012 and speedcubing since mid 2017.</p>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<div class="image fit">
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>   
+                                <div class="video-container"><iframe class="latestVideoEmbed" vnum='0' cid="UCDo5nG01bqy7cHhyf-8E3Qw" width="502" height="285.6" frameborder="0" allowfullscreen></iframe></div>
+                                    <script>
+var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+function loadVideo(iframe){
+    $.getJSON( reqURL + iframe.getAttribute('cid'),
+      function(data) {
+         var videoNumber = (iframe.getAttribute('vnum')?Number(iframe.getAttribute('vnum')):0);
+        console.log(videoNumber);
+         var link = data.items[videoNumber].link;
+         id = link.substr(link.indexOf("=") + 1);  
+         iframe.setAttribute("src","https://youtube.com/embed/"+id + "?controls=0&autoplay=0");
+      }
+   );
+}
+var iframes = document.getElementsByClassName('latestVideoEmbed');
+for (var i = 0, len = iframes.length; i < len; i++){
+       loadVideo(iframes[i]);
+}
+</script>							</div>
+						</div>
+					</article>
+					<article class="alt">
+						<div class="content">
+							<div class="image fit">
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>   
+                                <div class="video-container"><iframe class="latestVideoEmbed" vnum='1' cid="UCDo5nG01bqy7cHhyf-8E3Qw" width="504" height="285.6" frameborder="0" allowfullscreen></iframe></div>
+                                    <script>
+var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+function loadVideo(iframe){
+    $.getJSON( reqURL + iframe.getAttribute('cid'),
+      function(data) {
+         var videoNumber = (iframe.getAttribute('vnum')?Number(iframe.getAttribute('vnum')):0);
+        console.log(videoNumber);
+         var link = data.items[videoNumber].link;
+         id = link.substr(link.indexOf("=") + 1);  
+         iframe.setAttribute("src","https://youtube.com/embed/"+id + "?controls=0&autoplay=0");
+      }
+   );
+}
+var iframes = document.getElementsByClassName('latestVideoEmbed');
+for (var i = 0, len = iframes.length; i < len; i++){
+       loadVideo(iframes[i]);
+}
+</script>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>       
+        
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>Social Media</h2>
+					</header>
+                        <ul class="social-icons">
+        <li><a href="https://youtube.com/c/ariissleeping" class="social-icon"> 
+            <i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://instagram.com/ariissleeping" class="social-icon"> 
+            <i class="fa fa-instagram"></i></a></li>
+                            <li></ul>
+					<div class="copyright">
+						&copy; Design by <a href="https://templated.co/">TEMPLATED</a>, modified by Ari. Rubik's Cube Image from <a href="https://www.pexels.com/photo/cube-cubes-rubik-s-cube-1206542/">Pexels</a>
+					</div>
+				</div>
+			</section>
+
+	</body>
+</html>
