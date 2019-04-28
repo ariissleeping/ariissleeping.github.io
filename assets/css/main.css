@@ -2021,6 +2021,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+    input[type="url"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2041,6 +2042,7 @@
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+        input[type="url"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -2081,6 +2083,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+    #footer input[type="url"],
 	select {
 		height: 2.75em;
 	}
@@ -2180,6 +2183,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+    input[type="url"],
 	select,
 	textarea {
 		background: none;
@@ -2189,6 +2193,7 @@
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+        input[type="url"],
 		select:focus,
 		textarea:focus {
 			border-color: #F866AC;
@@ -2717,6 +2722,7 @@
 			.wrapper.style1 input[type="text"],
 			.wrapper.style1 input[type="password"],
 			.wrapper.style1 input[type="email"],
+            .wrapper.style1 input[type="url"],
 			.wrapper.style1 select,
 			.wrapper.style1 textarea {
 				background: none;
@@ -2726,6 +2732,7 @@
 				.wrapper.style1 input[type="text"]:focus,
 				.wrapper.style1 input[type="password"]:focus,
 				.wrapper.style1 input[type="email"]:focus,
+                .wrapper.style1 input[type="url"]:focus,
 				.wrapper.style1 select:focus,
 				.wrapper.style1 textarea:focus {
 					border-color: #ffffff;
@@ -2921,6 +2928,7 @@
 			.wrapper.style2 input[type="text"],
 			.wrapper.style2 input[type="password"],
 			.wrapper.style2 input[type="email"],
+            .wrapper.style2 input[type="url"],
 			.wrapper.style2 select,
 			.wrapper.style2 textarea {
 				background: rgba(255, 255, 255, 0.075);
@@ -2930,6 +2938,7 @@
 				.wrapper.style2 input[type="text"]:focus,
 				.wrapper.style2 input[type="password"]:focus,
 				.wrapper.style2 input[type="email"]:focus,
+                .wrapper.style2 input[type="url"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
 					border-color: #F866AC;
@@ -3811,6 +3820,7 @@
 		#footer input[type="text"],
 		#footer input[type="password"],
 		#footer input[type="email"],
+        #footer input[type="url"],
 		#footer select,
 		#footer textarea {
 			background: none;
@@ -3820,6 +3830,7 @@
 			#footer input[type="text"]:focus,
 			#footer input[type="password"]:focus,
 			#footer input[type="email"]:focus,
+            #footer input[type="url"],
 			#footer select:focus,
 			#footer textarea:focus {
 				border-color: #ffffff;
